@@ -1,0 +1,36 @@
+.global-warehouse-search {
+  padding: 5px 15px;
+  
+  .warehouse-select {
+    min-width: 200px;
+    
+    &__control {
+      border-radius: 4px;
+      border: 1px solid #e6edef;
+      min-height: 35px !important;
+      
+      &:hover {
+        border-color: #0A80BF;
+      }
+    }
+    
+    &__menu {
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-top: 2px;
+    }
+    
+    &__option {
+      padding: 4px 12px;
+      font-size: 14px;
+      
+      &:hover {
+        background-color: #e6edef;
+      }
+      
+      &--is-selected {
+        background-color: #0A80BF;
+        color: white;
+      }
+    }
+  }
+}
